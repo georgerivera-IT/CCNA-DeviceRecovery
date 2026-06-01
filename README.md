@@ -1,13 +1,15 @@
 # CCNA-DeviceRecovery
 
-### Overview:
+### Problem:
+Work department reports a router went down, forgotten password to the router, or requests file/system image backups.
+
+### Solution:
 Performing factory reset, password recovery, configuration backup, and system image backup and recovery on a Cisco router. Additionally, performing an IOS upgrade on a Cisco switch.
 
 ### Skills demonstrated:
 Cisco IOS familiarity
 
-### Screenshots:
-#### Topology
+#### Topology:
 <img width="673" height="282" alt="DR1" src="https://github.com/user-attachments/assets/ac056625-d1cc-4409-bb5a-26f436ac5f6f" />
 <br><br>
 
@@ -83,6 +85,7 @@ Stored the running-config to Flash on R1 as a backup file: "Backup1". Verified b
 <br>
 
 Stored the startup-config to TFTP server (10.10.10.10 via Topology) as a backup file: "Backup2". Verified backup via Server Services TFTP.
+
 <img width="652" height="85" alt="CB2" src="https://github.com/user-attachments/assets/b2b6bcd5-12f5-489d-acb9-98ee16d2a45e" />
 <img width="699" height="223" alt="CB3" src="https://github.com/user-attachments/assets/a2f60c3a-9547-4ae4-8e1e-72aa47e99a94" />
 
