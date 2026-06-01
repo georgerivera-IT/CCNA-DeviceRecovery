@@ -30,7 +30,7 @@ Post-reload, logged new router configurations by assigning hostname and IP addre
 <br>
 
 #### Password Recovery
-Assigned new secret password.
+Assigned a secret password, mimicking a "forgotten" password throughout these steps.
 
 <img width="650" height="86" alt="PR1" src="https://github.com/user-attachments/assets/f338c206-458e-499f-9b54-2392481011be" />
 
