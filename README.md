@@ -90,6 +90,12 @@ Stored the startup-config to TFTP server (10.10.10.10 via Topology) as a backup 
 <img width="699" height="223" alt="CB3" src="https://github.com/user-attachments/assets/a2f60c3a-9547-4ae4-8e1e-72aa47e99a94" />
 
 #### IOS System Image Backup & Recovery
+IOS system image is stored in Flash. Copied Flash to TFTP server at 10.10.10.10, with copied Flash filename "c2900-universalk9-mz.SPA.151-4.M4.bin". Verified backup via Server Services TFTP
+
+<img width="650" height="420" alt="image" src="https://github.com/user-attachments/assets/85d0d963-6e79-4162-b3ce-e4c6c0df618f" />
+<img width="695" height="513" alt="IOS2" src="https://github.com/user-attachments/assets/d7641654-e6fa-4b51-82da-f3cb4ed71449" />
+
+
 
 
 
