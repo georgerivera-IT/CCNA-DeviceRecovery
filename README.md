@@ -74,5 +74,21 @@ Post-reload is observed that no enable secret password was enabled correctly (no
 
 <img width="654" height="355" alt="PR8" src="https://github.com/user-attachments/assets/22edf15c-8ee5-4390-abc5-3c5c95303bf1" />
 
+#### Configuration Backup
+Stored the running-config to Flash on R1 as a backup file: "Backup1". Verified backup via 'show flash' command and observing "Backup1".
+
+<img width="651" height="238" alt="CB" src="https://github.com/user-attachments/assets/9afffd96-f722-4d52-b331-efe68cea23f7" />
+
+<br>
+<br>
+
+Stored the startup-config to TFTP server (10.10.10.10 via Topology) as a backup file: "Backup2". Verified backup via Server Services TFTP.
+<img width="652" height="85" alt="CB2" src="https://github.com/user-attachments/assets/b2b6bcd5-12f5-489d-acb9-98ee16d2a45e" />
+<img width="699" height="223" alt="CB3" src="https://github.com/user-attachments/assets/a2f60c3a-9547-4ae4-8e1e-72aa47e99a94" />
+
+#### IOS System Image Backup & Recovery
+
+
+
 
 
