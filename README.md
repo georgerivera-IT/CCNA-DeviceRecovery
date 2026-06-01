@@ -93,8 +93,18 @@ Stored the startup-config to TFTP server (10.10.10.10 via Topology) as a backup 
 IOS system image is stored in Flash. Copied Flash to TFTP server at 10.10.10.10, with copied Flash filename "c2900-universalk9-mz.SPA.151-4.M4.bin". Verified backup via Server Services TFTP
 
 <img width="650" height="420" alt="image" src="https://github.com/user-attachments/assets/85d0d963-6e79-4162-b3ce-e4c6c0df618f" />
-<img width="695" height="513" alt="IOS2" src="https://github.com/user-attachments/assets/d7641654-e6fa-4b51-82da-f3cb4ed71449" />
 
+<img width="697" height="707" alt="IOS2 (2)" src="https://github.com/user-attachments/assets/5685a93d-917f-4d96-8ce2-5a6ed9b1da58" />
+
+#### IOS System Image Backup & Recovery
+Deleted existing Flash file: "c2900-universalk9-mz.SPA.151-4.M4.bin". Force router reload and observed rommon mode.
+
+<img width="651" height="291" alt="IOSR1" src="https://github.com/user-attachments/assets/f5e7f227-b849-4007-a2bd-c84716bbc9a0" />
+
+<br>
+<br>
+
+Used Internet search to find system recovery instructions for the model of the router. For this use case of a Cisco 2900 router, this link is used: https://www.cisco.com/c/en/us/td/docs/routers/access/1900/software/configuration/guide/Software_Configuration/appendixCrommon.html#69806 Using the command 'tftpdnld' assists user with IOS recovery instructions.
 
 
 
