@@ -104,7 +104,8 @@ Deleted existing Flash file: "c2900-universalk9-mz.SPA.151-4.M4.bin". Force rout
 <br>
 <br>
 
-Used Internet search to find system recovery instructions for the model of the router. For this use case of a Cisco 2900 router, this link is used: https://www.cisco.com/c/en/us/td/docs/routers/access/1900/software/configuration/guide/Software_Configuration/appendixCrommon.html#69806 Using the command 'tftpdnld' assists user with IOS recovery instructions.
+Used Internet search to find system recovery instructions for the model of the router. For this use case of a Cisco 2900 router, this link is used: https://www.cisco.com/c/en/us/td/docs/routers/access/1900/software/configuration/guide/Software_Configuration/appendixCrommon.html#69806 
+Using the command 'tftpdnld' assists user with IOS recovery instructions.
 
 
 
