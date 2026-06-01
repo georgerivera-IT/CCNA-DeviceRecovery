@@ -3,9 +3,6 @@
 ### Overview:
 Performing factory reset, password recovery, configuration backup, and system image backup and recovery on a Cisco router. Additionally, performing an IOS upgrade on a Cisco switch.
 
-### What I configured:
-3 Routers to be DNS clients.
-
 ### Skills demonstrated:
 Cisco IOS familiarity
 
@@ -46,30 +43,35 @@ Configured router to boot into rommon prompt on next reload, and copied the runn
 <br>
 
 Reloaded router and in rommon, entered the command 'confreg 0x2142' to ignore the contents of the startup-config in order to bypass the "forgotten" password.
+
 <img width="649" height="404" alt="PR4" src="https://github.com/user-attachments/assets/cd77c159-fe07-4266-9ea9-f85b7be893ed" />
 
 <br>
 <br>
 
 Skipped setup wizard. Show running-config displays that the running-config was not saved because the router bypassed loading the startup-config on bootup from command 'confreg 0x2142'. 
+
 <img width="652" height="173" alt="PR5" src="https://github.com/user-attachments/assets/8f2c8970-fe8b-4bd8-8e61-554a66fedca4" />
 
 <br>
 <br>
 
 Copied the startup-config to the running-config. Missing this step will factory reset the router. Command is successful when router hostname changes from 'Router' to 'R1'.
+
 <img width="652" height="108" alt="PR6" src="https://github.com/user-attachments/assets/674cf76e-5741-43db-a957-fbe97eedbe9b" />
 
 <br>
 <br>
 
 Removed the enable secret password and ensured the router reboots normally on next reload with command 'config-register 0x2102'. Copied the running-config back to the startup-config and proceed with reload.
+
 <img width="650" height="275" alt="PR7" src="https://github.com/user-attachments/assets/d1ab5e3d-4a68-485d-8318-6d7ce6ac5f7b" />
 
 <br>
 <br>
 
 Post-reload is observed that no enable secret password was enabled correctly (not prompted for password: ), and new reload shows hostname as 'R1' rather than 'Router'. The password is successfully recovered, and a new one can be established.
+
 <img width="654" height="355" alt="PR8" src="https://github.com/user-attachments/assets/22edf15c-8ee5-4390-abc5-3c5c95303bf1" />
 
 
