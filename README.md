@@ -121,7 +121,7 @@ Filled in IP Address, Subnet Mask, Default Gateway, TFTP Server & Filename. Proc
 <img width="649" height="250" alt="IOSR3" src="https://github.com/user-attachments/assets/c01a78d1-db11-42f0-a66f-8b024f897612" />
 
 #### IOS Image Upgrade
-Verified current version (12.0). Copy upgraded TFTP Flash (15.0) file to SW1.
+Verified current version (12.2). Copy upgraded TFTP Flash (15.0) file to SW1.
 
 <img width="652" height="82" alt="IOSU1" src="https://github.com/user-attachments/assets/c4b96588-bd2d-491a-ba64-b908930534d2" />
 <img width="699" height="592" alt="IOSU2" src="https://github.com/user-attachments/assets/142efc13-5d98-4965-9b2d-80d3b7fa8d4f" />
