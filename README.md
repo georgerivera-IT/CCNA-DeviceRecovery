@@ -124,7 +124,7 @@ Filled in IP Address, Subnet Mask, Default Gateway, TFTP Server & Filename. Proc
 #### IOS Image Upgrade
 Verified current version (12.0). Copy upgraded TFTP Flash (15.0) file to SW1.
 
-<img width="652" height="82" alt="IOSU1" src="https://github.com/user-attachments/assets/d032945f-b755-4aa2-9fa1-ad6a826f01d4" />
+<img width="652" height="82" alt="IOSU1" src="https://github.com/user-attachments/assets/c4b96588-bd2d-491a-ba64-b908930534d2" />
 <img width="699" height="592" alt="IOSU2" src="https://github.com/user-attachments/assets/142efc13-5d98-4965-9b2d-80d3b7fa8d4f" />
 <img width="651" height="239" alt="IOSU3" src="https://github.com/user-attachments/assets/58b1ca43-b4e2-40c9-bfda-717d8f498f1e" />
 
@@ -134,7 +134,7 @@ Verified current version (12.0). Copy upgraded TFTP Flash (15.0) file to SW1.
 Use 'boot system c2960-lanbasek9-mz.150-2.SE4.bin' command to set primary IOS image for next reload. Reload and verify new software version.
 
 <img width="651" height="174" alt="IOSU4" src="https://github.com/user-attachments/assets/4b3ca57e-e940-4d4f-8278-65411335a4ad" />
-<img width="650" height="249" alt="IOSU5" src="https://github.com/user-attachments/assets/ffc06c65-20f1-4b3a-835b-9d3b86556605" />
+<img width="650" height="249" alt="IOSU5" src="https://github.com/user-attachments/assets/7d625762-69b5-4f2f-aa38-b412dfd0e8df" />
 
 
 
