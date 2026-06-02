@@ -1,4 +1,3 @@
-<img width="652" height="82" alt="IOSU1" src="https://github.com/user-attachments/assets/a94d2727-abca-4d2f-ac2d-b07db3bac0c7" />
 # CCNA-DeviceRecovery
 
 ### Problem:
