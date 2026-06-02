@@ -104,8 +104,38 @@ Deleted existing Flash file: "c2900-universalk9-mz.SPA.151-4.M4.bin". Force rout
 <br>
 <br>
 
-Used Internet search to find system recovery instructions for the model of the router. For this use case of a Cisco 2900 router, this link is used: https://www.cisco.com/c/en/us/td/docs/routers/access/1900/software/configuration/guide/Software_Configuration/appendixCrommon.html#69806 
+Used Internet search to find system recovery instructions for the model of the router. For this use case of a Cisco 2900 router, this link is used: https://www.cisco.com/c/en/us/td/docs/routers/access/1900/software/configuration/guide/Software_Configuration/appendixCrommon.html#69806
+
+<br>
+
 Using the command 'tftpdnld' assists user with IOS recovery instructions.
+
+<img width="652" height="316" alt="IOSR2" src="https://github.com/user-attachments/assets/be40fda9-1713-4b55-8cb9-89920c3a4cc1" />
+
+<br>
+<br>
+
+Filled in IP Address, Subnet Mask, Default Gateway, TFTP Server & Filename. Proceed with 'tftpdlnd command', followed by 'reset'.
+
+<img width="653" height="212" alt="IOSR4" src="https://github.com/user-attachments/assets/3d6a8bd6-255a-42df-acc8-78c668d8b270" />
+<img width="649" height="250" alt="IOSR3" src="https://github.com/user-attachments/assets/c01a78d1-db11-42f0-a66f-8b024f897612" />
+
+#### IOS Image Upgrade
+Verified current version (12.0). Copy upgraded TFTP Flash (15.0) file to SW1.
+
+<img width="652" height="82" alt="IOSU1" src="https://github.com/user-attachments/assets/d032945f-b755-4aa2-9fa1-ad6a826f01d4" />
+<img width="699" height="592" alt="IOSU2" src="https://github.com/user-attachments/assets/142efc13-5d98-4965-9b2d-80d3b7fa8d4f" />
+<img width="651" height="239" alt="IOSU3" src="https://github.com/user-attachments/assets/58b1ca43-b4e2-40c9-bfda-717d8f498f1e" />
+
+<br>
+<br>
+
+Use 'boot system c2960-lanbasek9-mz.150-2.SE4.bin' command to set primary IOS image for next reload. Reload and verify new software version.
+
+<img width="651" height="174" alt="IOSU4" src="https://github.com/user-attachments/assets/4b3ca57e-e940-4d4f-8278-65411335a4ad" />
+<img width="650" height="249" alt="IOSU5" src="https://github.com/user-attachments/assets/ffc06c65-20f1-4b3a-835b-9d3b86556605" />
+
+
 
 
 
